@@ -5,15 +5,11 @@ This project is created as part of the Sovio QA Testing Assignment.
 It includes manual test cases and an initial Playwright automation setup
 for core user authentication features.
 
----
-
 ## Features Covered
 - User Registration
 - User Sign In
 - Passkey Registration
 - Sign In using Passkey
-
----
 
 ## Manual Testing
 Manual test cases are documented in the Excel file:
@@ -32,8 +28,6 @@ This security popup prevents further execution of:
 
 This is an environment-level constraint, not a functional defect.
 
----
-
 ## Automation Testing
 Automation is implemented using **Playwright with JavaScript**.
 
@@ -51,17 +45,14 @@ Automation is implemented using **Playwright with JavaScript**.
 Automation execution is blocked due to the same certificate
 authentication popup which cannot be bypassed in automation.
 
----
 
 ## Project Structure
 tests/
+
 └── example.spec.js
 playwright.config.js
 README.md
 Sovio_Manual_Test_Cases.xlsx
-
-
----
 
 ## Conclusion
 This assignment demonstrates:
@@ -69,3 +60,4 @@ This assignment demonstrates:
 - Proper test execution reporting
 - Awareness of environment and security limitations
 - Basic automation framework setup using Playwright
+
